@@ -1095,7 +1095,7 @@ mkdir infrastructure/dev-k8s-terraform
 
 ```bash
 mkdir -p infrastructure/dev-k8s-terraform/modules/IAM
-```
+``` 
 
 - Create iam policy file for the master node with the name of `policy_for_master.json`  under the `infrastructure/dev-k8s-terraform/modules/IAM`.
 
