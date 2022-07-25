@@ -1036,7 +1036,7 @@ git branch feature/msp-14
 git checkout feature/msp-14
 ```
 
-* Create a Jenkins Job and name it as `create-ecr-docker-registry-for-dev` to create Docker Registry for `dev` on AWS ECR manually.
+* Create a Jenkins Job and name it as `create-ecr-docker-registry-for-dev` to create Docker Registry for `dev` on AWS ECR manually. (freestyle)
 
 ``` bash
 PATH="$PATH:/usr/local/bin"
