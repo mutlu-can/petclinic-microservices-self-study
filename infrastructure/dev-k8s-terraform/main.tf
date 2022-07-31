@@ -171,7 +171,11 @@ resource "aws_instance" "worker-1" {
 resource "aws_instance" "worker-2" {
     ami = "ami-013f17f36f8b1fefb"
     instance_type = "t3a.medium"
+<<<<<<< HEAD
         iam_instance_profile = module.iam.worker_profile_name
+=======
+    iam_instance_profile = module.iam.worker_profile_name
+>>>>>>> feature/msp-16
     vpc_security_group_ids = [aws_security_group.matt-kube-worker-sg.id, aws_security_group.matt-kube-mutual-sg.id]
     key_name = "mattkey"
     subnet_id = "subnet-07912ce72ecfb069f"  # select own subnet_id of us-east-1a
