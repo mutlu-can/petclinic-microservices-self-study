@@ -2518,7 +2518,7 @@ docker push "${IMAGE_TAG_HYSTRIX_DASHBOARD}"
 docker push "${IMAGE_TAG_VETS_SERVICE}"
 docker push "${IMAGE_TAG_VISITS_SERVICE}"
 docker push "${IMAGE_TAG_GRAFANA_SERVICE}"
-docker push "${IMAGE_TAG_PROMETHEUS_SERVICE}"
+docker push "${IMAGE_TAG_PROMETHEUS_SERVICE}" 
 ```
 
 - Commit the change, then push the scripts to the remote repo.
