@@ -2888,7 +2888,7 @@ mkdir infrastructure/qa-k8s-terraform
 cp -r infrastructure/dev-k8s-terraform/* infrastructure/qa-k8s-terraform/
 ```
 
-- Create a Jenkins Job with the name of `create-permanent-key-pair-for-petclinic-qa-env` for Ansible key pair to be used in QA environment using following script, and save the script as `create-permanent-key-pair-for-qa-environment.sh` under `jenkins` folder.
+- Create a Jenkins Job with the name of `create-permanent-key-pair-for-petclinic-qa-env` for Ansible key pair to be used in QA environment using following script(freestyle), and save the script as `create-permanent-key-pair-for-qa-environment.sh` under `jenkins` folder.
 
 ```bash
 PATH="$PATH:/usr/local/bin"
@@ -2935,7 +2935,7 @@ compose:
   ansible_user: "'ubuntu'"
 ```
 
-- Prepare a Jenkinsfile to create a QA Environment on Kubernetes Cluster manually and save it as `jenkinsfile-create-qa-environment-on-kubernetes-cluster` under `jenkins` folder.
+- Prepare a Jenkinsfile to create a QA Environment on Kubernetes Cluster manuenkinsfile-create-qa-environment-on-kubernetes-clusterally and save it as `j` under `jenkins` folder.
 
 ```groovy
 pipeline {
