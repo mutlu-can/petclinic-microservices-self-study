@@ -2935,7 +2935,7 @@ compose:
   ansible_user: "'ubuntu'"
 ```
 
-- Prepare a Jenkinsfile to create a QA Environment on Kubernetes Cluster manuenkinsfile-create-qa-environment-on-kubernetes-clusterally and save it as `j` under `jenkins` folder.
+- Prepare a Jenkinsfile to create a QA Environment on Kubernetes Cluster manually and save it as `jenkinsfile-create-qa-environment-on-kubernetes-cluster` under `jenkins` folder.
 
 ```groovy
 pipeline {
