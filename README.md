@@ -3180,12 +3180,12 @@ git merge feature/msp-21
 git push origin dev
 ```
 
-- Merge `dev` into `release` branch, then run `build-and-deploy-petclinic-on-qa-env` job to build and deploy the app on `QA environment` manually.
+- Merge `dev` into `release` branch, then run `build-and-deploy-petclinic-on-qa-env` job to build and deploy the app  on `QA environment` manually.
 
 ```bash
 git checkout release
 git merge dev
-git push origin release
+git push origin release 
 ```
 
 ## MSP 22 - Prepare a QA Pipeline
