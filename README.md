@@ -3576,7 +3576,7 @@ mkdir -p ~/.kube
 mv ./kube_config_rancher-cluster.yml $HOME/.kube/config
 chmod 400 ~/.kube/config
 kubectl get nodes
-kubectl get pods --all-namespaces
+kubectl get pods --all-namespaces 
 ```
 
 * Commit the change, then push the script to the remote repo.
@@ -3617,9 +3617,10 @@ kubectl create namespace cattle-system
 ```bash
 helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
-  --set hostname=rancher.clarusway.us \
+  --set hostname=rancher.mutlu-can.com \
   --set tls=external \
   --set replicas=1
+  
 ```
 
 * Check if the Rancher Server is deployed successfully.
