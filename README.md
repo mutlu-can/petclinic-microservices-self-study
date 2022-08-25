@@ -4042,6 +4042,7 @@ Count             : 3
 etcd              : checked
 Control Plane     : checked
 Worker            : checked
+ilave olarak oluşturduğumuz TEMPLATE'İ ekliyoruz önemli 
 ```
 
 * Create `petclinic-prod-ns` namespace on `petclinic-cluster` with Rancher.
